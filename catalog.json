@@ -1,0 +1,689 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "heroes",
+      "replication_method": "FULL_TABLE",
+      "key_properties": [
+        "id"
+      ],
+      "schema": {
+        "properties": {
+          "id": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "localized_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "primary_attr": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "attack_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "roles": {
+            "items": {
+              "type": [
+                "string"
+              ]
+            },
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "base_health": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_health_regen": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_mana": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_mana_regen": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_armor": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_mr": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_attack_min": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_attack_max": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_str": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_agi": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "base_int": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "str_gain": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "agi_gain": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "int_gain": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "attack_range": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "projectile_speed": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "attack_rate": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "move_speed": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "turn_rate": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "cm_enabled": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "legs": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "heroes",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "id"
+            ],
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "name"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "localized_name"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "primary_attr"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "attack_type"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "roles"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_health"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_health_regen"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_mana"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_mana_regen"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_armor"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_mr"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_attack_min"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_attack_max"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_str"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_agi"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "base_int"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "str_gain"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "agi_gain"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "int_gain"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "attack_range"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "projectile_speed"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "attack_rate"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "move_speed"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "turn_rate"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cm_enabled"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "legs"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "playermatches",
+      "replication_method": "FULL_TABLE",
+      "key_properties": [
+        "match_id"
+      ],
+      "schema": {
+        "properties": {
+          "match_id": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "player_slot": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "radiant_win": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "duration": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "game_mode": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "lobby_type": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "hero_id": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "start_time": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "version": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "kills": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "deaths": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "assists": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "skill": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "leaver_status": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "party_size": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "playermatches",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "match_id"
+            ],
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "match_id"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "player_slot"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "radiant_win"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "duration"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "game_mode"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "lobby_type"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "hero_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "start_time"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "version"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "kills"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "deaths"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "assists"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "skill"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "leaver_status"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "party_size"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    }
+  ]
+}

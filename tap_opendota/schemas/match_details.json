@@ -5,10 +5,7 @@
     ],
     "properties": {
         "match_id": {
-            "type": [
-                "number",
-                "null"
-            ]
+            "type": "number"
         },
         "barracks_status_dire": {
             "type": [

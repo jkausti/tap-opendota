@@ -1,0 +1,1390 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "match_id": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "barracks_status_dire": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "barracks_status_radiant": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "cluster": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "dire_score": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "dire_team_id": {
+            "type": "null"
+        },
+        "draft_timings": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": [
+                    "object",
+                    "null"
+                ],
+                "properties": {
+                    "order": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "pick": {
+                        "type": [
+                            "boolean",
+                            "null"
+                        ]
+                    },
+                    "active_team": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "hero_id": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "player_slot": {
+                        "type": "null"
+                    },
+                    "extra_time": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "total_time_taken": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    }
+                }
+            }
+        },
+        "duration": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "engine": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "first_blood_time": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "game_mode": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "human_players": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "leagueid": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "lobby_type": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "match_seq_num": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "negative_votes": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "objectives": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": [
+                    "object",
+                    "null"
+                ],
+                "properties": {
+                    "time": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "slot": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "key": {
+                        "type": [
+                            "number",
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "player_slot": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "unit": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "team": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    }
+                }
+            }
+        },
+        "picks_bans": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": [
+                    "object",
+                    "null"
+                ],
+                "properties": {
+                    "is_pick": {
+                        "type": [
+                            "boolean",
+                            "null"
+                        ]
+                    },
+                    "hero_id": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "team": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "order": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    }
+                }
+            }
+        },
+        "positive_votes": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "radiant_gold_adv": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": [
+                    "number",
+                    "null"
+                ]
+            }
+        },
+        "radiant_score": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "radiant_team_id": {
+            "type": "null"
+        },
+        "radiant_win": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "radiant_xp_adv": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": [
+                    "number",
+                    "null"
+                ]
+            }
+        },
+        "skill": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "start_time": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "tower_status_dire": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "tower_status_radiant": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "version": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "replay_salt": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "series_id": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "series_type": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "players": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": [
+                    "object",
+                    "null"
+                ],
+                "properties": {
+                    "match_id": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "player_slot": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "account_id": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "assists": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "backpack_0": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "backpack_1": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "backpack_2": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "backpack_3": {
+                        "type": "null"
+                    },
+                    "camps_stacked": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "creeps_stacked": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "deaths": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "denies": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "firstblood_claimed": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "gold": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "gold_per_min": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "gold_spent": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "gold_t": {
+                        "type": [
+                            "array",
+                            "null"
+                        ],
+                        "items": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        }
+                    },
+                    "hero_damage": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "hero_healing": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "hero_id": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "item_0": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "item_1": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "item_2": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "item_3": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "item_4": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "item_5": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "item_neutral": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "kills_log": {
+                        "type": [
+                            "array",
+                            "null"
+                        ],
+                        "items": {
+                            "type": [
+                                "object",
+                                "null"
+                            ],
+                            "properties": {
+                                "time": {
+                                    "type": [
+                                        "number",
+                                        "null"
+                                    ]
+                                },
+                                "key": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "last_hits": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "leaver_status": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "level": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "max_hero_hit": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "type": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            },
+                            "time": {
+                                "type": [
+                                    "number",
+                                    "null"
+                                ]
+                            },
+                            "max": {
+                                "type": [
+                                    "boolean",
+                                    "null"
+                                ]
+                            },
+                            "inflictor": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            },
+                            "unit": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            },
+                            "key": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            },
+                            "value": {
+                                "type": [
+                                    "number",
+                                    "null"
+                                ]
+                            },
+                            "slot": {
+                                "type": [
+                                    "number",
+                                    "null"
+                                ]
+                            },
+                            "player_slot": {
+                                "type": [
+                                    "number",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "multi_kills": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "2": {
+                                "type": [
+                                    "number",
+                                    "null"
+                                ]
+                            },
+                            "3": {
+                                "type": [
+                                    "number",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "net_worth": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "obs_placed": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "party_id": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "party_size": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "performance_others": {
+                        "type": "null"
+                    },
+                    "permanent_buffs": {
+                        "type": [
+                            "null",
+                            "array"
+                        ],
+                        "items": {
+                            "type": [
+                                "object",
+                                "null"
+                            ],
+                            "properties": {
+                                "permanent_buff": {
+                                    "type": [
+                                        "number",
+                                        "null"
+                                    ]
+                                },
+                                "stack_count": {
+                                    "type": [
+                                        "number",
+                                        "null"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "pings": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "pred_vict": {
+                        "type": [
+                            "boolean",
+                            "null"
+                        ]
+                    },
+                    "purchase_log": {
+                        "type": [
+                            "array",
+                            "null"
+                        ],
+                        "items": {
+                            "type": [
+                                "object",
+                                "null"
+                            ],
+                            "properties": {
+                                "time": {
+                                    "type": [
+                                        "number",
+                                        "null"
+                                    ]
+                                },
+                                "key": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "charges": {
+                                    "type": [
+                                        "number",
+                                        "null"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "randomed": {
+                        "type": [
+                            "boolean",
+                            "null"
+                        ]
+                    },
+                    "repicked": {
+                        "type": "null"
+                    },
+                    "roshans_killed": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "rune_pickups": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "runes_log": {
+                        "type": [
+                            "array",
+                            "null"
+                        ],
+                        "items": {
+                            "type": [
+                                "object",
+                                "null"
+                            ],
+                            "properties": {
+                                "time": {
+                                    "type": [
+                                        "number",
+                                        "null"
+                                    ]
+                                },
+                                "key": {
+                                    "type": [
+                                        "number",
+                                        "null"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "sen_placed": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "stuns": {
+                        "type": [
+                            "number",
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "teamfight_participation": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "times": {
+                        "type": [
+                            "array",
+                            "null"
+                        ],
+                        "items": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        }
+                    },
+                    "tower_damage": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "towers_killed": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "xp_per_min": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "radiant_win": {
+                        "type": [
+                            "boolean",
+                            "null"
+                        ]
+                    },
+                    "start_time": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "duration": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "cluster": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "lobby_type": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "game_mode": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "is_contributor": {
+                        "type": [
+                            "boolean",
+                            "null"
+                        ]
+                    },
+                    "patch": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "isRadiant": {
+                        "type": [
+                            "boolean",
+                            "null"
+                        ]
+                    },
+                    "win": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "lose": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "total_gold": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "total_xp": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "kills_per_min": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "kda": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "abandons": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "neutral_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "tower_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "courier_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "lane_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "hero_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "observer_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "sentry_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "roshan_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "necronomicon_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "ancient_kills": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "buyback_count": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "observer_uses": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "sentry_uses": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "lane_efficiency": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "lane_efficiency_pct": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "lane": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "lane_role": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "is_roaming": {
+                        "type": [
+                            "boolean",
+                            "null"
+                        ]
+                    },
+                    "purchase_tpscroll": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "actions_per_min": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "life_state_dead": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "rank_tier": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "cosmetics": {
+                        "type": [
+                            "array",
+                            "null"
+                        ],
+                        "items": {
+                            "type": [
+                                "object",
+                                "null"
+                            ],
+                            "properties": {
+                                "item_id": {
+                                    "type": [
+                                        "number",
+                                        "null"
+                                    ]
+                                },
+                                "name": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "prefab": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "creation_date": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "image_inventory": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "image_path": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "item_description": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "item_name": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "item_rarity": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "item_type_name": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "used_by_heroes": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "benchmarks": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "gold_per_min": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "raw": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    },
+                                    "pct": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    }
+                                }
+                            },
+                            "xp_per_min": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "raw": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    },
+                                    "pct": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    }
+                                }
+                            },
+                            "kills_per_min": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "raw": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    },
+                                    "pct": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    }
+                                }
+                            },
+                            "last_hits_per_min": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "raw": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    },
+                                    "pct": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    }
+                                }
+                            },
+                            "hero_damage_per_min": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "raw": {
+                                        "type": [
+                                            "number",
+                                            "number",
+                                            "null"
+                                        ]
+                                    },
+                                    "pct": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    }
+                                }
+                            },
+                            "hero_healing_per_min": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "raw": {
+                                        "type": [
+                                            "number",
+                                            "null",
+                                            "number"
+                                        ]
+                                    },
+                                    "pct": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    }
+                                }
+                            },
+                            "tower_damage": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "raw": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    },
+                                    "pct": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    }
+                                }
+                            },
+                            "stuns_per_min": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "raw": {
+                                        "type": [
+                                            "number",
+                                            "number",
+                                            "null"
+                                        ]
+                                    },
+                                    "pct": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    }
+                                }
+                            },
+                            "lhten": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "raw": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    },
+                                    "pct": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "purchase_ward_observer": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "purchase_ward_sentry": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "personaname": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "name": {
+                        "type": [
+                            "boolean",
+                            "null"
+                        ]
+                    },
+                    "last_login": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    }
+                }
+            }
+        },
+        "patch": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "throw": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "loss": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "replay_url": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

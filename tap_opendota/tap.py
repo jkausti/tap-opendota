@@ -8,6 +8,7 @@ from singer_sdk import typing as th  # JSON schema typing helpers
 # TODO: Import your custom stream types here:
 from tap_opendota.streams import (
     HeroesStream,
+    MatchDetailStream,
     PlayerMatchesStream,
     opendotaStream
 )
@@ -15,7 +16,8 @@ from tap_opendota.streams import (
 #       OR rewrite discover_streams() below with your custom logic.
 STREAM_TYPES = [
     HeroesStream,
-    PlayerMatchesStream
+    PlayerMatchesStream,
+    MatchDetailStream
 ]
 
 

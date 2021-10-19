@@ -6,11 +6,12 @@ import requests
 
 from singer_sdk import typing as th
 from singer_sdk.helpers.jsonpath import extract_jsonpath  # JSON Schema typing helpers
+from singer.utils import ratelimit
 
 from tap_opendota.client import opendotaStream
 
-# Delete this is if not using json files for schema definition
-# SCHEMAS_DIR = Path(__file__).parent / Path("./schemas")
+
+SCHEMAS_DIR = Path(__file__).parent / Path("./schemas")
 
 class HeroesStream(opendotaStream):
     """
@@ -104,3 +105,40 @@ class PlayerMatchesStream(opendotaStream):
     def parse_response(self, response: requests.Response) -> Iterable[dict]:
         playermatches_jsonpath = '$[*]'
         yield from extract_jsonpath(playermatches_jsonpath, input=response.json())
+
+    def get_child_context(self, record: dict, context: Optional[dict]) -> dict:
+        return {
+            "match_id": record["match_id"]
+        }
+
+class MatchDetailStream(opendotaStream):
+    """
+    Fetches match details about the fetched matches.
+    """
+
+    name = 'matchdetails'
+    parent_stream_type = PlayerMatchesStream
+    path = 'matches/{match_id}'
+    primary_keys = ['match_id']
+    replication_key = None
+    schema_filepath = SCHEMAS_DIR / "match_details.json"
+
+    def get_records(self, context: Optional[dict]) -> Iterable[Dict[str, Any]]:
+        """
+        Return a generator of row-type dictionary objects.
+
+        Each row emitted should be a dictionary of property names to their values.
+        """
+
+        try:
+            for row in self.request_records(context):
+                row = self.post_process(row, context)
+                yield row
+        except RuntimeError as e:
+            self.logger.warning(f"Request with context {context} failed.")
+            yield {}
+
+    
+    def parse_response(self, response: requests.Response) -> Iterable[dict]:
+        matchdetails_jsonpath = '$'
+        yield from extract_jsonpath(matchdetails_jsonpath, input=response.json())

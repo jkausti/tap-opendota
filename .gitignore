@@ -8,6 +8,9 @@ catalog.json
 .secrets/
 .secrets
 
+# Vscode settings
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
